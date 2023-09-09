@@ -44,6 +44,10 @@
     font-weight: bold;
 }
 
+.footer-container-item button:hover {
+    color: white;
+}
+
 .copyrights{
     width: 100%;
     color: white;
