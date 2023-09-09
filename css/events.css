@@ -1,16 +1,18 @@
 body{
-    background-color: #1B9C85;
+    background-color: #BFCCB5;
+    color: hsl(210, 3%, 16%);
 }
 
 .border {
+    background-color: #F0F0F0;
     text-align: center;
-    border: black;
+    border: hsl(210, 3%, 16%);
     border-width: 5px;
     border-style: solid;
     margin: 10px;
     padding: 5px;
     border-top-left-radius: 50px;
-    transition: 0.3s;
+    transition: 0.2s;
     border-bottom-right-radius: 50px;
     min-width: 300px;
 }
@@ -25,15 +27,15 @@ body{
 }
 .button-font{
     background-color: white;
-    color: black;
-    border: solid black;
+    color: hsl(210, 3%, 16%);
+    border: solid hsl(210, 3%, 16%);
     cursor: pointer;
     padding: 15px;
     border-radius: 100px;
     transition: 0.5s;
 }
-button:hover{
-    background-color: black;
+.button-font:hover{
+    background-color: hsl(210, 3%, 16%);
     color: white;
 }
 /* .main-spacing .main-para .main-h4{
@@ -79,7 +81,7 @@ table {
     text-align: center;
     margin : 20px 10%;
     width: 80%;
-    background-color: black;
+    background-color: hsl(210, 3%, 16%);
 }
 
 th,
@@ -93,7 +95,7 @@ td {
 
 
 .event {
-    color: black;
+    color: hsl(210, 3%, 16%);
 }
 
 .event > h3 {
@@ -108,6 +110,7 @@ td {
     align-items: center;
     height: auto;
     width: 90%;
+    /* border-radius: 10px; */
     padding: 20px 5%;
     
 }
@@ -120,7 +123,8 @@ td {
     min-height: 450px;
     width: 300px;
     margin: 10px;
-    outline: 2px solid black;
+    border-radius: 10px;
+    outline: 2px solid hsl(210, 3%, 16%);
     padding: 10px;
     text-align: justify;
 }
@@ -132,4 +136,14 @@ td {
 .event-container-item > img{
     max-width: 300px;
     max-height: 200px;
+}
+
+.event-container-item:hover{
+    border-width: 10px;
+}
+
+.hrow{
+    height: 1px;
+    border-radius: 10px;
+    width: 95%;
 }
