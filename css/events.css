@@ -1,0 +1,135 @@
+body{
+    background-color: #1B9C85;
+}
+
+.border {
+    text-align: center;
+    border: black;
+    border-width: 5px;
+    border-style: solid;
+    margin: 10px;
+    padding: 5px;
+    border-top-left-radius: 50px;
+    transition: 0.3s;
+    border-bottom-right-radius: 50px;
+    min-width: 300px;
+}
+
+.border,
+.main-para {
+    background-color: #EEEEEE;
+}
+.border:hover{
+    border-width: 10px;
+    /* transition: 0.5s; */
+}
+.button-font{
+    background-color: white;
+    color: black;
+    border: solid black;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+/* .main-spacing .main-para .main-h4{
+    text-align: center;
+} */
+.spacing {
+    margin-top: 80px;
+    margin-left: 20px;
+}
+
+.image {
+    height: 20%;
+    width: 40%;
+    margin: 20px;
+}
+
+.left-spacing {
+    text-align: left;
+    border-left: 40px;
+    margin: 0 20px;
+}
+
+.justify {
+    text-align: justify;
+    margin: 0 20px;
+    
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+table {
+    text-align: center;
+    margin : 20px 10%;
+    width: 80%;
+    background-color: black;
+}
+
+th,
+td {
+    padding: 5px 10px;
+    border-top-width: 0;
+    border-left-width: 0;
+    background-color: white;
+    text-align: center;
+}
+
+
+.event {
+    color: black;
+}
+
+.event > h3 {
+    margin: 0;
+    padding: 20px 5%;
+}
+
+.event-container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    padding: 20px 5%;
+    
+}
+
+.event-container-item{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 450px;
+    width: 300px;
+    margin: 10px;
+    outline: 2px solid black;
+    padding: 10px;
+    text-align: justify;
+}
+
+.event-container-item > h4 , .event-container-item > h5 {
+    text-align: center;
+}
+
+.event-container-item > img{
+    max-width: 300px;
+    max-height: 200px;
+}

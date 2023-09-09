@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+}
+
+.nav-wrapper{
+    position : sticky;
+    top : 0;
+}
+
+.navbar {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    background-color: rgb(50, 57, 62);
+    color: rgba(255, 255, 255, 0.884);
+    min-height: 60px;
+}
+
+.branding{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    height: inherit;
+}
+
+.branding img , .branding h3 , .branding p {
+    margin : 0 10px;
+}
+
+a,  a:hover,  a:focus,  a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navLinks{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    white-space: nowrap;
+    height: inherit;
+}
+
+.navLinks > a{
+    padding: 15px;
+}
+
+.navLinks  >a:hover{
+    outline: 1px solid white;
+}
+
+.navLinks > button {
+    display: none;
+    background-color: inherit;
+    border: 2px solid rgba(255, 255, 255, 0.709);
+    border-radius: 1px;
+}
+
+#mobileMenu{
+    position: absolute;
+    padding: 10px 7%;
+    flex-flow: column nowrap;
+    justify-content: space-evenly;
+    align-items: flex-start; 
+    color: white;
+    background-color: rgba(0, 0, 0, 0.914);
+    width: 86%;
+    height: max-content;
+}
+
+#mobileMenu > a{
+    padding: 2%;
+}
+
+#mobileMenu > a:hover{
+    outline: 1px solid white;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.display-none{
+    display: none;
+}
+
+@media only screen and (max-width: 860px) {
+    .navLinks{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;    
+    }
+
+    .navLinks > a{
+        display: none;
+    }
+    
+    .navLinks > button {
+        margin: 0 10px;
+        display: inline-block;
+    }
+    
+}
+
+@media only screen and (min-width: 861px) {
+    #mobileMenu{
+        display: none;
+    }
+}
