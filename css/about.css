@@ -1,3 +1,7 @@
+body{
+    color: hsl(210, 3%, 16%);
+    background-color: #BFCCB5;
+}
 @keyframes slideineff {
     0%{
         opacity: 0%;
@@ -65,13 +69,11 @@
     width: 345px;
     height: auto;
     margin: 10px;
+    border-radius: 10px;
     outline: 1px solid black;
     padding: 5px;
     text-align: center;
 }
 
-.row{
-    background-color: beige;
-}
 
 
