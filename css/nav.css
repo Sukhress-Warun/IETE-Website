@@ -13,7 +13,8 @@ body {
     justify-content: space-between;
     background-color: rgb(50, 57, 62);
     color: rgba(255, 255, 255, 0.884);
-    min-height: 60px;
+    min-height: 90px;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, 0.615);
 }
 
 .branding{
@@ -22,6 +23,7 @@ body {
     justify-content: flex-start;
     align-items: center;
     height: inherit;
+    font-size: 110%;
 }
 
 .branding img , .branding h3 , .branding p {
@@ -67,6 +69,7 @@ a,  a:hover,  a:focus,  a:active {
     background-color: rgba(0, 0, 0, 0.914);
     width: 86%;
     height: max-content;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.615), 3px 0 5px 0 rgba(0, 0, 0, 0.615), -3px 0 5px  0 rgba(0, 0, 0, 0.615);
 }
 
 #mobileMenu > a{
